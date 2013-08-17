@@ -1,0 +1,35 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_e5b7525b4214a759876af4448bd6b87d'] = 'Blok Horní hlavní nabídka [Top horizontal menu block]';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_3679e307d4a14646c488a65381de82ea'] = 'Přidejte popisek';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_15772d25000bce9fc3a2a2fd7d41a717'] = 'Odkaz byl odstraněn';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_d1156d9314813566c02aedc3852bdcab'] = 'Odkaz byl upraven';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_242e9577826290307cd3e45a259172cc'] = 'Tyto úpravy budou aplikovány na';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_540c8f06b80b4ec911505764eb455f4d'] = 'všechny obchody';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_f4f70727dc34561dfde1a3c529b6205c'] = 'Nastavení';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_9dea4016dbcc290b773ab2fae678aaa8'] = 'Položky';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_c7da501f54544eba6787960200d9efdb'] = 'CMS';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_ec136b444eede3bc85639fac0dd06229'] = 'Dodavatel';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_c0bd7654d5b278e65f21cf4e9153fdb4'] = 'Výrobce';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_af1b98adf7f686b84cd0b443e022b7a0'] = 'Kategorie';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_12a521af593422cd508f7707662c9eb2'] = 'Obchody';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_068f80c7519d0528fb08e82137a72131'] = 'Produkty';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_56e8bf6c54f1638e7bce5a2fcd5b20fe'] = 'Nabídka Horní odkazy ';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_ec211f7c20af43e742bf2570c3cb84f9'] = 'Přidat';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_1063e38cb53d94d386f21227fcd84717'] = 'odstranit';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_fcd7ab4061bb3846392cc34376902165'] = 'Zadejte číslo produktu';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_97f08a40f22a625d0cbfe03db3349108'] = 'Číslo produktu';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_8cc149b77eaece54cee2e7e02f40018a'] = 'Vyhledávací pruh';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_9f1b01ac44ff287d5b8ed20ec8ee180b'] = 'Přidat nabídku Horní odkazy ';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_b021df6aac4654c454f46c77646e745f'] = 'Popis';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_97e7c9a7d06eac006a28bf05467fcc8b'] = 'Odkaz';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_4994a8ffeba4ac3140beb89e8d41f174'] = 'Jazyk';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_7a115fe2bd8b94ead1550a2da953cf87'] = 'Nové okno';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_7dce122004969d56ae2e0245cb754d35'] = 'Upravit';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_814579fdad9baf2cdcac456468265384'] = 'Zobrazit nabídku Horní odkazy ';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_4443702c8a13a65ac66d074b7a82af9a'] = 'Číslo odkazu';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_004bf6c9a40003140292e97330236c53'] = 'Akce';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_93cba07454f06a4a960172bbd6e2a435'] = 'Ano';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Ne';

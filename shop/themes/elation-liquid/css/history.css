@@ -1,0 +1,72 @@
+#history #left_column {display:none}
+#history #center_column{width:757px}
+#history #center_column h1{margin-top:20px}
+#history #center_column h4{
+	margin:20px 0;
+	padding:15px 20px;
+	background:#ccc
+}
+#history #center_column h4 input {
+	position: relative;
+   top: -8px;
+	float:right;
+}
+
+.info-order {
+	margin-bottom:20px;
+}
+.info-order p {padding-bottom:10px}
+.info-order p .icon {
+	position:relative;
+	top:2px;
+	left:0
+}
+
+#order-list {
+	margin-bottom:20px;
+	width:100%;
+	border:1px solid #999;
+	border-bottom:none
+}
+#order-list  th {
+	padding:14px 5px;
+	text-align: left;
+}
+#order-list tr.alternate_item {background-color: #f3f3f3}
+#order-list  td {
+	padding:5px;
+	font-weight:bold;
+	font-size:12px;
+	vertical-align:top
+}
+#order-list  td.history_detail {border-right:none;}
+
+.detail_step_by_step {width:100%}
+
+#order-detail-content table {width:100%}
+#order-detail-content table .order_qte_input {display:none}
+#order-detail-content table tr:nth-child(even) {background:#f3f3f3;}
+
+#sendOrderMessage {margin-bottom:20px}
+#sendOrderMessage p {padding-bottom:10px}
+
+#returnOrderMessage .textarea textarea,
+#sendOrderMessage .textarea textarea {
+	width:98%;
+	border:1px solid #999
+}
+
+a.color-myaccount  {border: 1px solid #000; padding:2px 5px; text-align: center; display:block; margin-top:5px;}
+a.color-myaccount:hover {border: 1px solid #000; background:#000; color:#FFF;}
+
+
+
+
+
+
+
+
+
+
+
+

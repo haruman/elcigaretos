@@ -1,0 +1,25 @@
+div.addresses {position:relative; padding:15px; border:1px solid #ccc; font-size:12px; background:#f8f8f8;}
+ul.address {float: left; position: relative; width: 47.5% !important; margin: 1%; background: #EEE; border: 1px solid #CCC; padding-bottom: 10px; -webkit-border-radius:3px; border-radius:3px;}
+ul.address li {padding:0 15px; line-height:25px; text-transform:uppercase; }
+ul.address li.address_firstname, ul.address li.address_company {margin-top:8px;}
+ul.address  li.address_update, ul.address li.address_delete {font-size:11px; text-transform:none; float:left;margin-top:20px;}
+.address_add {padding:20px 0;}
+.address_delivery select, #id_address_invoice {border:1px solid #ccc; width:200px; height:30px; margin-left:10px;}
+.cart_address_delivery {border:1px solid #ccc; width:90%; height:30px; margin-left:10px;}
+/* PAGE ADRESSES ******************************************************************************* */
+.addresses ul.address.alternate_item, .addresses ul.address.last_item {margin-right:0}
+.addresses ul.address li {padding:0 15px; font-weight:bold; line-height:18px; text-transform:uppercase;}
+.addresses ul.address .address_title {padding: 8px; border-bottom: 2px solid #999; font-weight: bold; font-size: 12px; text-transform: uppercase; background: #CCC;}
+.addresses ul.address .address_update a, .addresses ul.address .address_delete a {display:inline-block; padding:4px 6px; font-size:10px; color:#666; text-transform:uppercase; border:1px solid #666; -webkit-border-radius:3px; border-radius:3px;}
+.addresses ul.address .address_update a:hover, .addresses ul.address .address_delete a:hover {color:#FFF; border:1px solid #29addd; background:#29addd;}
+div.block_adress {margin-top:20px;}
+#address_invoice_form {padding-top:10px;}
+
+@media only screen and (max-width: 530px) { 
+	ul.address {float:none;width:96% !important; padding:2%;}
+	ul#delivery_address li, ul#address_delivery li {margin-right:0px;}
+	ul#invoice_address li, ul#address_invoice li {margin-left:0px;}
+
+}
+
+

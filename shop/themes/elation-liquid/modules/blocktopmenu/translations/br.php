@@ -1,0 +1,38 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_e5b7525b4214a759876af4448bd6b87d'] = 'Menu horizontal superior';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_3679e307d4a14646c488a65381de82ea'] = 'Por favor, adicione um rótulo';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_15772d25000bce9fc3a2a2fd7d41a717'] = 'Este link foi removido';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_d1156d9314813566c02aedc3852bdcab'] = 'Este link foi editado';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_242e9577826290307cd3e45a259172cc'] = 'As modificações serão aplicadas a';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_540c8f06b80b4ec911505764eb455f4d'] = 'todas compras';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_f4f70727dc34561dfde1a3c529b6205c'] = 'Configurações';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_9dea4016dbcc290b773ab2fae678aaa8'] = 'items';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_c7da501f54544eba6787960200d9efdb'] = 'CMS';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_ec136b444eede3bc85639fac0dd06229'] = 'Fornecedor';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_c0bd7654d5b278e65f21cf4e9153fdb4'] = 'Fabricante';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_af1b98adf7f686b84cd0b443e022b7a0'] = 'Categorias';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_12a521af593422cd508f7707662c9eb2'] = 'Lojas:';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_068f80c7519d0528fb08e82137a72131'] = 'Produtos';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_56e8bf6c54f1638e7bce5a2fcd5b20fe'] = 'Link do menu superior';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_ec211f7c20af43e742bf2570c3cb84f9'] = 'Adicionar';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_1063e38cb53d94d386f21227fcd84717'] = 'Remover';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_fcd7ab4061bb3846392cc34376902165'] = 'Defina o ID do produto';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_97f08a40f22a625d0cbfe03db3349108'] = 'ID do produto';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_8cc149b77eaece54cee2e7e02f40018a'] = 'Barra de pesquisa';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_9f1b01ac44ff287d5b8ed20ec8ee180b'] = 'Adicionar link do menu superior';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_b021df6aac4654c454f46c77646e745f'] = 'Rótulo';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_97e7c9a7d06eac006a28bf05467fcc8b'] = 'Link';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_4994a8ffeba4ac3140beb89e8d41f174'] = 'Idioma';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_7a115fe2bd8b94ead1550a2da953cf87'] = 'Nova janela';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_7dce122004969d56ae2e0245cb754d35'] = 'Editar';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_814579fdad9baf2cdcac456468265384'] = 'Lista do link para menu superior';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_4443702c8a13a65ac66d074b7a82af9a'] = 'Id Link';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_004bf6c9a40003140292e97330236c53'] = 'Ação';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_93cba07454f06a4a960172bbd6e2a435'] = 'Sim';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Não';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_bea8d9e6a0d57c4a264756b4f9822ed9'] = 'Minha conta';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_8f7f4c1ce7a4f933663d10543562b096'] = 'Sobre nós';
+$_MODULE['<{blocktopmenu}elation-liquid>blocktopmenu_bbaff12800505b22a853e8b7f4eb6a22'] = 'Contato';

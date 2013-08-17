@@ -1,0 +1,64 @@
+#stores #center_colum label {
+	display:inline-block;
+	width:150px;
+	font-weight:bold;
+	text-align:right
+}
+input#addressInput {
+	padding:2px 5px;
+	border:1px solid #ccc;
+}
+select#radiusSelect {
+	margin: 0 5px 0 0;
+	width:50px;
+	border:1px solid #ccc
+}
+
+#stores_loader {
+   display: none;
+   margin-left: 5px
+}
+
+#locationSelect {
+	visibility: hidden;
+	max-width: 240px;
+	border:1px solid #ccc
+}
+
+#stores #center_column p .button {float:right}
+
+#map {
+   margin:15px auto;
+   height:375px;
+   width:100%
+}
+.store-small {float:left; width:20%;}
+#stores-table {border-bottom:1px solid #999}
+#stores-table tr:nth-child(odd) {background-color: #f3f3f3;}
+#stores-table td {
+	border-top:1px solid #ccc;
+	border-bottom:none
+}
+#stores-table td.distance {border-right:1px solid #999}
+
+#map-left {width:20%; float:left;}
+#map-left p {padding: 3px 6px 3px 0;}
+#map-right {width:80%;float:left;}
+
+@media only screen and (max-width: 999px) {
+	#map-left h1, #map-left p {padding: 3px 6px;}
+}
+
+/* Tablet Only Queries */
+@media only screen and (min-width: 481px) and (max-width: 786px)  { 
+	.store-small {width:25%;}
+	#map-left {width:30%;}
+	#map-right {width:70%;}
+	
+}
+@media only screen and (max-width: 480px) { 
+	.store-small {width:50%;}
+	#map-left {width:auto; float:none; padding:0 10px;}
+	#map-left p {padding: 3px 0;}
+	#map-right {width:100%; float:none;}
+}

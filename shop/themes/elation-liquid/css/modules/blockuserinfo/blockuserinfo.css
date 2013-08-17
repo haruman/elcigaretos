@@ -1,0 +1,28 @@
+
+/* ************************************************************************************************
+      SUB NAVIGATION USER INFO
+************************************************************************************************ */
+#eb-header_user { position:absolute; top:0; right:88px; z-index:102; height:34px; overflow:hidden; }
+#eb-header_user nav ul li { background:#29addd; padding:4px 8px; float:left; display:block; text-transform:uppercase; color:#ccc; text-align:right; font-size:10px; margin-left:2px; height:25px;
+-webkit-border-radius: 0 0 5px 5px;
+border-radius: 0 0 5px 5px;
+-webkit-transition: all 0.4s linear;
+-moz-transition: all 0.4s linear;
+-ms-transition: all 0.4s linear;
+-o-transition: all 0.4s linear;
+transition: all 0.4s linear; }
+
+#eb-header_user nav ul li a { display:block; color:#FFF; font-size:13px; }
+#eb-header_user nav ul li:hover { background:#EEE; color:#333; }
+#eb-header_user nav ul li:hover a { color:#333; }
+/* cart */
+#header_user #shopping_cart .ajax_cart_quantity {  font-weight:bold; font-size:18px  }
+#header_user #shopping_cart .ajax_cart_total {  display:none !important;  }
+li#shopping_cart.eb-over { background:#EEE; color:#333; -webkit-border-radius:0; border-radius:0; }
+li#shopping_cart.eb-over a { color:#333; }
+/* account */
+#header_user #your_account { display:none; }
+/* user infos */ 
+#header_user_info { clear:both;float:right;margin-top:10px;padding:0;font-size:12px; }
+#header_user_info a { display:inline-block;	margin:0 0 0 10px;	padding:3px 0 0 34px;line-height: 11px;	border-left:1px solid #000; }
+*:first-child+html #header_user_info a { line-height:14px; }

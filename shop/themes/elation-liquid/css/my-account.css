@@ -1,0 +1,26 @@
+#my-account #eb-main h1 {margin-bottom:10px}
+#my-account #eb-main h4 {font-weight:normal;font-size:12px;color:#666;margin-bottom:20px}
+#my-account .myaccount_lnk_list li {font-size:13px; text-align:center; width:17.6%; margin: 0 2% 20px 0; height:120px; float:left; border:1px solid #c1c1c1; background:#eee;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;}
+#my-account .myaccount_lnk_list li a {margin:0 auto; padding:10px; display:block;}
+#my-account .myaccount_lnk_list li a:first-child {padding:20px 10px 0 10px;}
+#my-account .myaccount_lnk_list li:hover {background:#fff;}
+#my-account .myaccount_lnk_list li a#eb-ma-orders {background:url(../img/icon/eb-my-account.png) no-repeat 0px top #eee;}
+#my-account .myaccount_lnk_list li a#eb-ma-returns {background:url(../img/icon/eb-my-account.png) no-repeat -50px top #eee;}
+#my-account .myaccount_lnk_list li a#eb-ma-slips {background:url(../img/icon/eb-my-account.png) no-repeat -100px top #eee;}
+#my-account .myaccount_lnk_list li a#eb-ma-addresses {background:url(../img/icon/eb-my-account.png) no-repeat -150px top #eee;}
+#my-account .myaccount_lnk_list li a#eb-ma-info {background:url(../img/icon/eb-my-account.png) no-repeat -200px top #eee;}
+#my-account .myaccount_lnk_list li a#eb-ma-voucher {background:url(../img/icon/eb-my-account.png) no-repeat -250px top #eee;}
+#my-account .myaccount_lnk_list li a#eb-ma-loyalty {background:url(../img/icon/eb-my-account.png) no-repeat -250px top #eee; background-size:50px 60px;}
+#my-account .myaccount_lnk_list li a#eb-ma-whish {background:url(../img/icon/eb-my-account.png) no-repeat -250px top #eee;}
+#my-account .myaccount_lnk_list li a#eb-ma-referal {background:url(../img/icon/eb-my-account.png) no-repeat -250px top #eee;}
+
+#module-blockwishlist-mywishlist h2 {display:none;}
+#module-blockwishlist-mywishlist form.std fieldset {border:none;}
+
+@media only screen and (max-width: 480px) { 
+	#my-account .myaccount_lnk_list li {width:31%;}
+}

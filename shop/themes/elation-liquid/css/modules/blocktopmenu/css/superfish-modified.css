@@ -1,0 +1,172 @@
+/* ************************************************************************************************
+      TOP NAVIGATION
+************************************************************************************************ */
+
+/*** ESSENTIAL STYLES ***/
+.eb-nav ul {
+	position:		absolute;
+	top:			-999em;
+	width:			12em; /* left offset of submenus need to match (see below) */
+	z-index:		100;
+}
+.eb-nav ul li {
+	width:			100%;
+}
+.eb-nav li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.eb-nav li {
+	float:			left;
+	position:		relative;
+}
+.eb-nav a {
+	display:		block;
+	position:		relative;
+}
+.eb-nav li:hover ul,
+.eb-nav li.sfHover ul {
+	left:			0;
+	top:			45px; /* match top ul list item height */
+	z-index:		101;
+}
+ul.eb-nav li:hover li ul,
+ul.eb-nav li.sfHover li ul {
+	top:			-999em;
+}
+ul.eb-nav li li:hover ul,
+ul.eb-nav li li.sfHover ul {
+	left:			12em; /* match ul width */
+	top:			0;
+	z-index:		104;
+}
+ul.eb-nav li li:hover li ul,
+ul.eb-nav li li.sfHover li ul {
+	top:			-999em;
+	z-index:		102;
+}
+ul.eb-nav li li li:hover ul,
+ul.eb-nav li li li.sfHover ul {
+	left:			12em; /* match ul width */
+	top:			0;
+	z-index:		103;
+}
+
+/*** ELATION SKIN ***/
+.eb-nav {float:left; position:absolute; z-index:999; top:126px; width:100%; height:40px;}
+.eb-nav a, .eb-nav a:visited  {color:#666;padding:.75em 1em; font-size:14px;}
+.eb-nav li {-webkit-border-radius: 3px; border-radius: 3px; text-transform:uppercase; line-height:25px;}
+.eb-nav li {-webkit-transition: all 0.3s linear;
+-moz-transition: all 0.3s linear;
+-ms-transition: all 0.3s linear;
+-o-transition: all 0.3s linear; 
+transition: all 0.3s linear;}
+.eb-nav li li {text-transform:capitalize; line-height:15px;}
+.eb-nav li:hover, .eb-nav li.sfhover {background:#eee;}
+.eb-nav li:hover a, .eb-nav li .sfhover a {color:#666;}
+.eb-nav li:hover li a, .eb-nav li li .sfhover a {color:#666;}
+.eb-nav li li:hover a, .eb-nav li li.sfhover a {color:#fff;}
+.eb-nav li li li li:hover a, .eb-nav li li.sfhover a {color:#fff;}
+.eb-nav li li:hover li a, .eb-nav li li li .sfhover a {color:#666;}
+.eb-nav li li li:hover a, .eb-nav li li li.sfhover a {color:#666;}
+.eb-nav li ul {background:#eee; padding-bottom:10px; -webkit-border-radius: 0px 3px 3px 3px; border-radius: 0px 3px 3px 3px;}
+.eb-nav li li:hover, .eb-nav li li.sfhover {background-color:#29ADDD;}
+
+/*** arrows **/
+.eb-nav a.sf-with-ul {
+	padding-right:2.25em;
+	min-width:1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+.sf-sub-indicator {
+	position:absolute;
+	display:block;
+	right:.75em;
+	top:1.05em; /* IE6 only */
+	width:10px;
+	height:10px;
+	text-indent:-999em;
+	overflow:hidden;
+	background:url('../../../../img/arrows.gif') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+a > .sf-sub-indicator {  /* give all except IE6 the correct values */
+	top:1em;
+	background-position:0 -100px; /* use translucent arrow for modern browsers*/
+}
+/* apply hovers to modern browsers */
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+	background-position:-10px -100px; /* arrow hovers for modern browsers*/
+}
+
+/* point right for anchors in subs */
+.eb-nav ul .sf-sub-indicator { background-position:-10px 0; }
+.eb-nav ul a > .sf-sub-indicator { background-position:0 0; }
+/* apply hovers to modern browsers */
+.eb-nav ul a:focus > .sf-sub-indicator,
+.eb-nav ul a:hover > .sf-sub-indicator,
+.eb-nav ul a:active > .sf-sub-indicator,
+.eb-nav ul li:hover > a > .sf-sub-indicator,
+.eb-nav ul li.sfHover > a > .sf-sub-indicator {
+	background-position:-10px 0; /* arrow hovers for modern browsers*/
+}
+
+
+/* Block Top Search */
+#searchbox {background:#ccc; border:1px solid #666; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), inset 0 1px 3px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), inset 0 1px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), inset 0 1px 3px rgba(0, 0, 0, 0.4);
+    }  
+#searchbox .button {background: url(../../../../img/search-zoom.png) no-repeat top center; border:none; text-indent:-999px; width: 30px; height: 30px;}
+#searchbox .button:hover  { background-position: bottom center;}
+#searchbox input[type="text"] {background:none; border:none; width:70px; height:20px; padding-left:10px; color: #666; text-shadow:0 1px 0 rgba(255,255,255,0.3);
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;}
+#searchbox input[type="text"]:focus, #searchbox input[type="text"]:hover {width:100px; outline:none; color:#333;}
+#searchbox p {padding:0;}
+.eb-nav li.noBack:hover {background:none;}
+
+
+/* Mobile Item */
+.eb-nav-phone-item { display:none; }
+#eb-phone-trigger { display:none; position:absolute; top:7px; right:0; background:url(../../../../img/icon-mobile-nav.png) top right no-repeat #29addd; width:50px; height:50px; text-indent:-9999px; border-radius:3px;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s; }
+#eb-phone-trigger:hover { background-color:#333; }
+#eb-phone-trigger.active { background-position:bottom right; }
+
+@media only screen and (max-width: 999px) {
+	.eb-nav a, .eb-nav a:visited  {font-size:13px;}
+}
+/* Tablet Only Queries */
+@media only screen and (min-width: 531px) and (max-width: 786px)  { 
+	.eb-nav a, .eb-nav a:visited  {font-size:12px;}
+}
+
+/* Phone Only Queries */
+@media only screen and (max-width: 530px) { 
+	#eb-header {height:auto; }
+	#eb-top-nav {margin-left:-2%; margin-right:-2%;}
+	.eb-nav {display:none; }
+	.eb-nav {width:100%; height:auto; margin:10px 0 0 0; position:static !important}
+	.eb-nav li {width:100%; background:#f4f4f4;  border-top:1px solid #fff !important; border-bottom:1px solid #999 !important; -webkit-border-radius:0; border-radius:0; }
+	.eb-nav li:hover {background:#29addd;}
+	.eb-nav li ul {width:100%; position:static !important; background:#ccc;}
+	.eb-nav li li {width:100% !important; background:#ccc; }
+	.eb-nav li li li {display:none !important;}
+	.eb-nav-phone-item { display:block; }
+	#eb-phone-trigger { display:block; }
+	.sf-search {padding:10px;} 
+	#searchbox {margin-left:15px;}
+	#searchbox input[type="text"] {width:80%;}
+	#searchbox input[type="text"]:focus, #searchbox input[type="text"]:hover {width:80%;}
+	#searchbox .button {width:10%;}
+	#header_logo { padding-right:50px; text-align:left !important;}
+}
+
